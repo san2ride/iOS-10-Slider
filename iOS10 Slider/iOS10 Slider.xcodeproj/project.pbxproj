@@ -12,6 +12,7 @@
 		A4638CF61DF28B3B00BA5778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4638CF41DF28B3B00BA5778 /* Main.storyboard */; };
 		A4638CF81DF28B3B00BA5778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4638CF71DF28B3B00BA5778 /* Assets.xcassets */; };
 		A4638CFB1DF28B3B00BA5778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4638CF91DF28B3B00BA5778 /* LaunchScreen.storyboard */; };
+		A4638D071DF2962F00BA5778 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4638D061DF2962F00BA5778 /* MyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A4638CF71DF28B3B00BA5778 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4638CFA1DF28B3B00BA5778 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4638CFC1DF28B3B00BA5778 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4638D061DF2962F00BA5778 /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A4638CEF1DF28B3B00BA5778 /* iOS10 Slider */ = {
 			isa = PBXGroup;
 			children = (
+				A4638D061DF2962F00BA5778 /* MyView.swift */,
 				A4638CF01DF28B3B00BA5778 /* AppDelegate.swift */,
 				A4638CF21DF28B3B00BA5778 /* ViewController.swift */,
 				A4638CF41DF28B3B00BA5778 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4638D071DF2962F00BA5778 /* MyView.swift in Sources */,
 				A4638CF31DF28B3B00BA5778 /* ViewController.swift in Sources */,
 				A4638CF11DF28B3B00BA5778 /* AppDelegate.swift in Sources */,
 			);
